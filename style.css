@@ -1,0 +1,70 @@
+*{margin:0;
+  padding:0;
+}
+body{background:#1c2120}
+.cabeçalho a{
+    text-decoration: none;
+    color:#f2efeb;
+}
+.sobre-mim a{
+    color:#f2efeb;
+}
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#1c2120;
+    color: #f2efeb;
+    padding: 13px;
+    border-bottom: #f2efeb solid 5px;
+}
+.itens-filhos{
+    display: flex;
+    gap:32px;
+    font-size:18px;
+}
+img{
+    height:300px;
+    text-align:center;
+}
+.div-principal{
+    background-color: #8d8f84;
+    text-align:center;
+    padding: 40px auto;
+    margin:25px 315px;
+    border: #f2efeb solid 5px;
+}
+.div-principal p{
+    padding:15px;
+}
+.div-principal .fases-lua{
+    padding:20px;
+}
+.lista-pai li{
+    text-align:center;
+    padding:15px;
+    font-size: 20px;
+}
+.sobre-mim{
+    background-color:black;
+    color:#f2efeb;
+    padding:15px;
+}
+.lista-links{
+    margin-left:15px;
+}
+
+body::-webkit-scrollbar {
+    width: 12px; 
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #8d8f84; 
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #1c2120;
+    border-radius: 20px;
+    border: 3px solid #8d8f84; 
+  }
